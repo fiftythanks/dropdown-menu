@@ -1,7 +1,7 @@
 {
-  "name": "template",
+  "name": "dropdown-menu",
   "version": "1.0.0",
-  "description": "Template repository with ESLint and Prettier configured for vanilla JS.",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
