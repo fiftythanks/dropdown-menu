@@ -6,9 +6,6 @@
 
 | Key        | Function |
 | ---------- | -------------------------------------------- |
-| Down Arrow
-Space
-Enter | Opens menu and moves focus to first
-menuitem |
+| Down Arrow \Space \Enter | Opens menu and moves focus to first menuitem |
 
 ### Menu
