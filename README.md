@@ -6,8 +6,8 @@
 
 | Key        | Function |
 | ---------- | -------------------------------------------- |
-| Down Arrow<br>Space<br>Enter | Opens menu and moves focus to first menu item |
-|Up Arrow | Opens menu and moves focus to last menu item |
+| Down Arrow<br>Space<br>Enter | Opens menu and moves focus to the first menu item |
+|Up Arrow | Opens menu and moves focus to the last menu item |
 
 ### Menu
 
