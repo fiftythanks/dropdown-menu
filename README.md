@@ -4,10 +4,10 @@
 
 ### Menu Button
 
-| Key                               | Function                                                                                      |
-| --------------------------------- | --------------------------------------------------------------------------------------------- |
-| Down<nbsp>Arrow<br>Space<br>Enter | Opens menu and moves focus to the first menu item. If menu is open, Space and Enter close it. |
-| Up Arrow                          | Opens menu and moves focus to the last menu item.                                             |
+| Key                          | Function                                                                                      |
+| ---------------------------- | --------------------------------------------------------------------------------------------- |
+| Down Arrow<br>Space<br>Enter | Opens menu and moves focus to the first menu item. If menu is open, Space and Enter close it. |
+| Up Arrow                     | Opens menu and moves focus to the last menu item.                                             |
 
 ### Menu
 
