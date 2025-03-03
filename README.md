@@ -34,3 +34,7 @@ When the menu is open, click or tap outside the menu closes it.
 | End            | Moves focus to the last menu item.                                                                                                                              |
 | A–Z<br>a–z     | • Moves focus to the next menu item with a label that starts with the typed character if such a menu item exists.<br>• Otherwise, focus does not move.          |
 | Tab            | In addition to default browser functions, tabbing to an element in the browser window that is not the menu item or the menu button results in the menu closing. |
+
+---
+
+This module was made as an assignment from [The Odin Project](https://www.theodinproject.com/). You can learn more about the assignment [here](https://www.theodinproject.com/lessons/node-path-javascript-dynamic-user-interface-interactions).
