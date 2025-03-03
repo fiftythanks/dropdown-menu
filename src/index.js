@@ -22,6 +22,8 @@ function toggleMenu(toggleEvent) {
     toggleEvent.stopPropagation();
     menu.style.display = 'none';
     document.onclick = null;
+    menuBtn.onkeydown = null;
+    menuBtn.onkeyup = null;
   }
 }
 
@@ -81,6 +83,15 @@ function openOnFocus() {
 }
 
 menuBtn.addEventListener('focus', openOnFocus);
+
+// When the menu button is focused, the menu is opened and the focus moves to another element that is not inside the menu, the menu closes
+menuBtn.addEventListener('blur', (e) => {
+  const focusedElement = e.relatedTarget;
+  if (!menu.contains(focusedElement) && menu.style.display !== 'none') {
+    toggleMenu(e);
+  }
+});
+
 Array.from(menu.children).forEach((item) => {
   const link = item.querySelector('a');
 
@@ -89,8 +100,6 @@ Array.from(menu.children).forEach((item) => {
     const focusedElement = e.relatedTarget;
     if (!menu.contains(focusedElement) && focusedElement !== menuBtn) {
       toggleMenu(e);
-      menuBtn.onkeydown = null;
-      menuBtn.onkeyup = null;
     }
   });
 
