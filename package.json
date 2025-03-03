@@ -1,6 +1,6 @@
 {
   "name": "dropdown-menu-fiftythanks",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "A dropdown menu module that has one function: to make your hardcoded and already styled menu functional. Call selectMenuBtnAndMenu(menuBtnUniqueIdentifier, menuUniqueIdentifier) to use the module.",
   "main": "index.js",
   "scripts": {

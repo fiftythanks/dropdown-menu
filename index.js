@@ -1,4 +1,4 @@
-export default function selectMenuBtnAndMenu(
+exports.selectMenuBtnAndMenu = function selectMenuBtnAndMenu(
   menuBtnUniqueIdentifier,
   menuUniqueIdentifier,
 ) {
@@ -157,4 +157,4 @@ export default function selectMenuBtnAndMenu(
     // Navigation
     link.addEventListener('keydown', navigateByKeyboard);
   });
-}
+};
