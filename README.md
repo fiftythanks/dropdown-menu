@@ -1,9 +1,14 @@
 # Dropdown Menu
 
+## Description
+
 This is a simple npm module that provides just one function: `selectMenuBtnAndMenu(menuBtnUniqueIdentifier, menuUniqueIdentifier)`.
 
-To explain how it works, here's an example: say you have a hardcoded dropdown menu _list_ (this must be a list for the module to work correctly) which should open when the user activates a menu button. The menu button and menu itself are assigned CSS classes `.menu-btn` and `.menu`. To make your unfunctional HTML and CSS menu functional, you just need to call `selectMenuBtnAndMenu('.menu-btn', '.menu')`. That's all there's. From now on, your list is functional.
+To explain how it works, here's an example: say you have a hardcoded dropdown menu _list_ (this must be a list for the module to work correctly, and each list item must contain an anchor element `<a>`) which should open when the user activates a menu button. The menu button and menu itself are assigned CSS classes `.menu-btn` and `.menu`. To make your unfunctional HTML and CSS menu functional, you just need to call `selectMenuBtnAndMenu('.menu-btn', '.menu')`. That's all there is. From now on, your list is functional.
 
+## Mouse Support
+
+Click on a list item is interpreted as a click on the link inside the list item.
 When the menu is open, click or tap outside the menu closes it.
 
 ## Keyboard Support
