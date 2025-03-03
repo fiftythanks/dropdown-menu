@@ -9,6 +9,7 @@ To explain how it works, here's an example: say you have a hardcoded dropdown me
 ## Mouse Support
 
 Click on a list item is interpreted as a click on the link inside the list item.
+
 When the menu is open, click or tap outside the menu closes it.
 
 ## Keyboard Support
